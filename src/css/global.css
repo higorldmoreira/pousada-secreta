@@ -1,0 +1,149 @@
+/* RESET E BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* LOGO */
+.logo {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.logo span {
+    color: #0093ce;
+    font-weight: 400;
+}
+
+/* NAV ATIVO */
+.nav-link.active,
+.nav-link-active {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    background-image: url("../img/img-fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero .box {
+    background: rgba(0, 107, 82, 0.6);
+    color: white;
+    border: 1px solid white;
+    padding: 3rem;
+    border-radius: 12px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.hero .box h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.hero .box p {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+/* QUARTOS */
+.quartos {
+    padding-bottom: 5rem;
+}
+
+.line {
+    width: 60%;
+    height: 3px;
+    background-color: rgba(0, 107, 82, 0.6);
+    margin: 0 auto;
+}
+
+/* MAPA */
+#rota .inf {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* FOOTER */
+.bg-custom {
+    background-color: rgba(0, 107, 82, 0.6);
+    color: white;
+}
+
+.bg-custom a {
+    color: white;
+    text-decoration: none;
+}
+
+.bg-custom a:hover {
+    text-decoration: underline;
+}
+
+/* UTILITÁRIAS */
+.box-shadow {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+/* ============================
+   RESPONSIVIDADE (mobile-first)
+   ============================ */
+
+   @media (max-width: 767.98px) {
+    .hero {
+      height: auto;
+      padding: 4rem 1rem;
+      text-align: center;
+    }
+  
+    .hero .box {
+      padding: 2rem;
+    }
+  
+    .hero .box h1 {
+      font-size: 2.2rem;
+    }
+  
+    .hero .box p {
+      font-size: 1rem;
+    }
+  
+    .quartos .row > div {
+      margin-bottom: 2rem;
+    }
+  
+    .line {
+      width: 80%;
+    }
+  
+    footer .row > div {
+      flex-direction: column;
+      align-items: center !important;
+      text-align: center;
+    }
+  
+    footer img {
+      margin-bottom: 0.5rem;
+    }
+  
+    .box-shadow {
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
