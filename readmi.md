@@ -35,6 +35,3 @@ A interface foi planejada para funcionar bem em **dispositivos móveis**, com **
 
 <img src="./src/img/index.png" width= "1280px">
 
----
-
-Se quiser, posso gerar esse conteúdo direto em um arquivo `README.md` e te passar pronto pra subir no Git. Quer?
